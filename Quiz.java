@@ -8,10 +8,11 @@ public class Quiz {
               //Las opciones a, b, c y d de cada pregunta, deberán dejar en terminal un espacio de sangría, averigua como hacerlo en java
         
         Scanner quiz = new Scanner(System.in);
-        // int age = quiz.nextInt();
-        System.out.println("¿Quién fue la hacker que escribió en 1994 Hacking the Wetware? a. Ada Lovelace, b. Jude Milhon, c. Martha Ackelsberg, d. Jane Jacobs ");
-        
+
         int counter = 0;
+
+        System.out.println("¿Quién fue la hacker que escribió en 1994 'Hacking the Wetware'?");
+        System.out.println("\ta. Ada Lovelace\n\tb. Jude Milhon\n\tc. Martha Ackelsberg\n\td. Jane Jacobs");        
         
         
         
@@ -22,10 +23,12 @@ public class Quiz {
             counter += 5;
             System.out.println("Correcto, ganas 5 puntos");
         } else {
-            System.out.println("meh");
+            System.out.println("ohhh");
         }
 
-        System.out.println("¿Quién es Fuencisla Clemares?   a. La directora general de IBM Europa, Oriente Medio y África,  b. La vicepresidenta de Microsoft Western Europe, c. La directora general de Google en España y Portugal, d. Fundadora y CEO de Marsi Bionics");
+        System.out.println("¿Quién es Fuencisla Clemares?  " );
+        System.out.println("\ta. La directora general de IBM Europa, Oriente Medio y África,\n\tb. La vicepresidenta de Microsoft Western Europe\n\tc. La directora general de Google en España y Portugal\n\td. Fundadora y CEO de Marsi Bionics" );
+
 
         String secondQ = quiz.nextLine();
         
@@ -34,11 +37,15 @@ public class Quiz {
             counter += 5;
             System.out.println("Correcto, ganas 5 puntos");
         } else {
-            System.out.println("meh");
+            System.out.println("ohhh");
         }
 
 
-          System.out.println("¿Quién fue Hedwig Eva Maria Kiesler, conocida como Hedy Lamarr?");
+        System.out.println("¿Quién fue Hedwig Eva Maria Kiesler, conocida como Hedy Lamarr?");
+        System.out.println("\ta. Primera programadora de software\t\n" + //
+                        "                b. Una actriz de cine\t\n" + //
+                        "                c. Inventora del procesador de datos\t\n" + //
+                        "                d. Inventora del sistema de comunicaciones de salto de frecuencia, base del wifi, bluetooth y GPS");
 
         String thirdQ = quiz.nextLine();
         
@@ -47,10 +54,14 @@ public class Quiz {
             counter += 5;
             System.out.println("Correcto, ganas 5 puntos");
         } else {
-            System.out.println("meh");
+            System.out.println("ohhh");
         }
 
          System.out.println("¿Cómo se llamaban las principales 'mujeres ocultas' de la NASA, encargadas de los cálculos para que la misión del Apolo 11 concluyera con éxito?");
+         System.out.println("\ta. Katherine Johnson, Dorothy Vaughan y Mary Jackson\t\n" + //
+                          "                b. Jessica Miller, Emily Johnson, Sarah Davis\t\n" + //
+                          "                c. bell hooks, Toni Morrison y Alice Walker\t\n" + //
+                          "                d. Emmeline Pankhurst, Millicent Fawcett y Harriet Harman");
 
         String fourthQ = quiz.nextLine();
         
@@ -59,7 +70,7 @@ public class Quiz {
             counter += 5;
             System.out.println("Correcto, ganas 5 puntos");
         } else {
-            System.out.println("meh");
+            System.out.println("ohhh");
         }
         
         //Respuestas: 1. b / 2. c / 3. b y d / 4. a

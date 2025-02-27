@@ -15,7 +15,7 @@ public class Weather {
 
         Scanner temperature = new Scanner(System.in);
         
-        System.out.println("Por favor, ingresa la temperatura actual en ºC");
+        System.out.print("Por favor, ingresa la temperatura actual en ºC ");
 
         int degrees = temperature.nextInt();
         
